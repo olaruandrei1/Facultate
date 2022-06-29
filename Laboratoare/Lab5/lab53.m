@@ -1,0 +1,9 @@
+delta=62.10^2-4
+x1=(-62.10+sqrt(delta))/2
+x2=(-62.10-sqrt(delta))/2
+flx1=-0.01610723 
+flx2=-62.08390 
+erabs=abs(flx1-x1)
+errel=erabs/abs(x1)
+erabs=abs(flx2-x2)
+errel=erabs/abs(x2)

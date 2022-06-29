@@ -1,0 +1,10 @@
+alfa=1:.1:3
+beta=6*exp(-alfa);
+figure;
+plot(alfa,beta)
+u=3.01:.01:5;
+v=log(u);
+figure;
+plot(u,v)
+xlabel('\alpha')
+ylabel('\beta')
