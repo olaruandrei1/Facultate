@@ -1,0 +1,9 @@
+figure(1)
+[t,xsol]=ode45(@ecdifbungee,[0,60],[-30,0],[],10);
+plot(t,50-xsol(:,1))
+figure(2)
+[t,xsol]=ode45(@ecdifbungee,[0,60],[-30,0],[],60);
+plot(t,50-xsol(:,1))
+figure(3)
+[t,xsol]=ode45(@ecdifbungee,[0,60],[-30,0],[],400);
+plot(t,50-xsol(:,1)) 
